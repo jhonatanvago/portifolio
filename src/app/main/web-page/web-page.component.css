@@ -1,0 +1,132 @@
+.webBody {
+    display: flex;
+    background-color: rgb(29, 27, 27);
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0897B4;
+    width: 15%;
+    min-width: 200px;
+    height: 100%;
+    font-family: 'Yaldevi', sans-serif;
+    color: aliceblue;
+    border-right: 0.5px solid aliceblue;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.menu-img>img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.menu-nome {
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 24px;
+}
+
+.menu-redes-sociais {
+    margin-bottom: 50px;
+}
+
+.menu-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-redes-sociais>div>img {
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.menu-redes-sociais>div>img:active {
+    position: relative;
+    top: 5px;
+}
+
+.menu-option>div>label:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.menu-option>div:active {
+    position: relative;
+    top: 5px;
+}
+
+.menu-option>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-option>div>img {
+    margin-right: 15px;
+}
+
+.session-home {
+    position: absolute;
+    font-family: 'Yaldevi', sans-serif;
+    top: 40%;
+    font-size: 2em;
+    margin-left: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.session-home h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+
+  .session-home > p {
+    color: #fff;
+  }
+
+.session-home > p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #0897B4;
+  }
+
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .session-home {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    .session-home {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .session-home {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+}

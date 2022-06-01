@@ -1,0 +1,22 @@
+.menu-header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70%;
+    margin-top: 1rem;
+    font-family: 'Yaldevi', sans-serif;
+    color: azure;
+}
+
+.menu-header > div:hover {
+    cursor: pointer;
+    color: darkgrey;
+}
+
+@media (max-width: 768px) {
+    .menu-header {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50%;
+        margin-top: 1rem;
+    }
+}
